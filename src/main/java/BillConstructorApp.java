@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class BillConstructorApp {
 
-    Scanner scanner = new Scanner(System.in);
-    BillConstructor constructor;
+    private Scanner scanner = new Scanner(System.in);
+    private BillConstructor constructor;
 
     void run() {
         createBillConstructor();

@@ -1,9 +1,9 @@
 import java.util.*;
 
 public class BillConstructor {
-    List<Item> items;
-    int numberOfGuests;
-    double total;
+    private List<Item> items;
+    private int numberOfGuests;
+    private double total;
 
     public BillConstructor(int numberOfGuests) {
         this.items = new ArrayList<>();
